@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+   
+</head>
+<body>
+        <table> 
+         <td> <input  type="text" placeholder="enter ur rank "  value="" id="rank_search"/></td>
+         <td>     <input  type="button"  onclick="binary_search()" value="RANK SEARCH" /></td>
+         <td> <input  type="text" placeholder="enter contest number "value="" id="contest_search"/></td>
+         <td>     <input  type="button"  onclick="contest_search()" value="CONTEST SEARCH" id="search"/></td>
+         <td>   <form><fieldset>
+             <select class="select">
+               <option>rank   </option>  
+                 <option>handle   </option>  
+                   <option>challange name   </option>
+            </select>
+        </fieldset></form> </td>
+    
+     <!--    <td>     <input  type="button"  onclick="binary_search()" value="RANK SEARCH" id="search"></input></td> -->
+        </table>
+      
+       
+        <input  type="button" onclick="getServerData()"  value="GET RANK LIST" id="getButton"></input>
+    <div class="div">
+   </div>
+   <input  type="button" onclick="getNextData()"  value="NEXT" id="getButton"></input>
+    <script type="text/javascript" src="home.js">
+    
+    </script>
+</body>
+</html>

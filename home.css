@@ -1,0 +1,31 @@
+#getButton
+{
+    background-color: blue;
+    width:25%;
+}
+#handle
+{
+    background-color: beige;
+}
+.div
+{
+    padding:2em;
+   
+}
+
+label{
+    background-color: aquamarine;
+   
+}
+label:hover
+{
+   background-color: #ffc107;
+  cursor:pointer;
+}
+
+form{
+    width:10%;
+}
+select{
+    background:cover;
+}
